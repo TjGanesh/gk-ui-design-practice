@@ -1,12 +1,3 @@
-.container {
-  display: felx;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  position: relative;
-  background: a27e6f;
-}
-
 .box {
   position: relative;
   width: 300px;
@@ -24,7 +15,7 @@
   width: 100%;
   height: 100%;
   filter: blur(25px);
-  transform: translateY(30px);
+  transform: translateY(10px);
 }
 .box,
 .box::before {

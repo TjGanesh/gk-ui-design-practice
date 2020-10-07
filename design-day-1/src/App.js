@@ -7,8 +7,10 @@ function App() {
   return (
     <>
       <Navbar />
-      <Card content="Gradiant Box" />
-      <Card content="Another Color" />
+      <div class="app-container">
+        <Card content="Gradiant Box" />
+        <Card content="Gradiant Box 2" />
+      </div>
     </>
   );
 }
